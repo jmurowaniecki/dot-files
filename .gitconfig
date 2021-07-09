@@ -1,0 +1,26 @@
+[user]
+	name = John Murowaniecki
+	email = jmurowaniecki@gmail.com
+	signingkey = A4D2374A6FCE00C993AE00F0353DC87DDEBAEA3A
+#	GITHUB_TOKEN = …
+
+[alias]
+	lg = ! git log --color --graph --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen%cr %Cblue%an%Creset' | less -r
+
+[color]
+	ui = true
+
+[core]
+	editor = vim
+
+[achievement]
+	upload = true
+
+[init]
+	defaultBranch = main
+
+[commit]
+	gpgsign = true
+
+[gpg]
+	program = gpg
