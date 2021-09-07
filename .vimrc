@@ -4,6 +4,7 @@ syntax on
 
 set number
 set encoding=utf8
+set wrap linebreak
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>

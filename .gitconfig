@@ -24,3 +24,5 @@
 
 [gpg]
 	program = gpg
+[pull]
+	ff = only
