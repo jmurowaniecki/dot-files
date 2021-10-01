@@ -1,4 +1,4 @@
 # Defined via `source`
 function vi --wraps=vim --description 'alias vi=vim'
-  vim $argv; 
+  vim $argv;
 end

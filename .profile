@@ -10,4 +10,5 @@ alias l=ls
 alias vi=vim
 
 export PATH="$PATH:~/.local/bin"
-
+export TOKEN=(cat ~/.secret/GITHUB_TOKEN)
+export GPG_MAIN_KEY=(cat ~/.secret/GPG_MAIN_KEY)

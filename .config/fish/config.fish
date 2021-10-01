@@ -153,5 +153,5 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 if status --is-interactive
    neofetch
 end
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; test -f /home/john/.ghcup/env ; and set -gx PATH $HOME/.cabal/bin /home/john/.ghcup/bin /home/john/go/bin /home/john/.config/composer/vendor/bin/ $PATH # ghcup-env
 
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; test -f /home/john/.ghcup/env ; and set -gx PATH $HOME/.cabal/bin /home/john/.ghcup/bin /home/john/go/bin /home/john/.config/composer/vendor/bin/ $PATH # ghcup-env

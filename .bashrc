@@ -8,5 +8,5 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-export PATH="${PATH}:~/.local/bin:~/go/bin"
+export PATH="${PATH}:~/.local/bin:~/go/bin:~/.config/composer/vendor/bin/"
 
