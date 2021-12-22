@@ -194,3 +194,6 @@ alias upd='sudo reflector --latest 5 --age 2 --fastest 5 --protocol https --sort
 
 ## Run neofetch
 neofetch
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
